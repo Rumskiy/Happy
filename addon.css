@@ -1,0 +1,30 @@
+body{
+    font-family: 'Papins', sans-serif;
+}
+
+.container__new{
+    padding: 0px 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container__new-second{
+    padding: 0px 15px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.shadow__navbar{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.btn{
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    width: 110px;
+}
+
+.pricing__btn-first{
+    background-color: #0278ED;
+}
