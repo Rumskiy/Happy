@@ -1,9 +1,19 @@
+const firstBox = document.getElementById('first');
+const secondBox = document.getElementById('second');
+const thirdBox = document.getElementById('third');
 const darkMode = document.getElementById('moon-rise');
 const sunMode = document.getElementById('sun-rise');
 const header = document.getElementsByClassName('switcher');
 const header2 = document.getElementsByClassName('switcher-second');
 const modal = document.getElementById('modal');
 const close = document.getElementById('close');
+
+
+const arr = [firstBox, secondBox, thirdBox];
+let i = 0;
+let count = 0;
+let checkDark = false;
+let checkModal = false;
 let check = false;
 
 //< Dark mode >

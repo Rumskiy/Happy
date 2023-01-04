@@ -78,7 +78,6 @@ body{
 }
 
 .modal{
-    backdrop-filter: blur(5px);
     display: none;
     flex-direction: row;
     justify-content: center;
